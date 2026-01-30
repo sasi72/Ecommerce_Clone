@@ -4,7 +4,9 @@
   "description": "Ecommerce using MERN Stack",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Backend/server.js",
+    "dev": "set NODE_ENV=development && nodemon Backend/server.js",
+    "prod": "set NODE_ENV=production && nodemon Backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,7 @@
   "keywords": [],
   "author": "Sasidharan",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/sasi72/Ecommerce_Clone/issues"
   },
@@ -22,5 +24,8 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
