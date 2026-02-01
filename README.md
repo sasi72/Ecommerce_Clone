@@ -1,2 +1,2 @@
 # A custom-built replica of a retail platform.
-## App is in build
+## App is in build - Mongoose successfully intergated.
